@@ -1,8 +1,8 @@
 ## Characteristics
-- Electromagnetic waves with wavelengths over the visible spectrum
+- Electromagnetic waves with wavelengths below the visible spectrum (frequency above)
 - Has wave characteristics but travels as clusters of energy or photons with a given wavelength
 - Do not need a carrier
-- Travel at the speed of sound
+- Travel at the speed of light
 
 The wavelength λ and frequency f are related by: 
 
