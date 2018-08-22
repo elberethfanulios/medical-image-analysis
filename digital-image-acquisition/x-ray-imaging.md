@@ -28,6 +28,6 @@ The energy of the X-ray photons is enough to release electrons from an atom - pr
 
 **Dose**-absorption per unit mass, measured in radiation absorbed dose (rad) or gray (Gy) with 1 Gy=100 rad
 
-**f-factor**-ratio between the exposure and the dose, varies with the X-ray energy
+**f-factor**-ratio between the dose and the exposure, varies with the X-ray energy
 - much higher for hard tissues at low exposure (bones) compared to soft tissue and water
 - thus, bone at low doses absorbs a significantly higher amount of radiation than soft tissue
