@@ -60,4 +60,8 @@ However, most generated X-ray radiation is polychrome.
 - The complete spectrum is a combination of monochrome and polychrome radiation
 - Spikes indicate some characteristic radiation energy levels
 
+![spectrum](https://github.com/elberethfanulios/medical-image-analysis/blob/master/digital-image-acquisition/spectrum.png) <!-- .element height="25%" width="25%" -->
+
+X-ray tubes are characterized by the total amount of emitted energy as X-rays and the quality of radiation. A high quality tube has a higher ratio of high energy radiation and of monochrome radiation. 
+High quality radiation imposes a lower dose on the patient and produces better images. 
 
