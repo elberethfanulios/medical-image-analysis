@@ -8,19 +8,20 @@ The wavelength λ and frequency f are related by:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=c=\lambda&space;f" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c=\lambda&space;f" title="c=\lambda f" /></a>
 
-The energy of a photon measured in eV is the energy that a single electron acquires when moving through a potential of 1 V. The energy of a photon is characterized by its wavelength and is given by:
+where the constant c is the speed of light. The energy of a photon measured in eV is the energy that a single electron acquires when moving through a potential of 1 V. The energy of a photon is characterized by its wavelength and is given by:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=e=\frac{1.24}{\lambda}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e=\frac{1.24}{\lambda}" title="e=\frac{1.24}{\lambda}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=E&space;=&space;hf&space;=&space;\frac{hc}{\lambda}&space;=&space;\frac{1.24&space;\;&space;keV\;&space;nm}{\lambda}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E&space;=&space;hf&space;=&space;\frac{hc}{\lambda}&space;=&space;\frac{1.24&space;\;&space;keV\;&space;nm}{\lambda}" title="E = hf = \frac{hc}{\lambda} = \frac{1.24 \; keV\; nm}{\lambda}" /></a>
 
-where the unit of measurement is keV and the wavelength is expressed in nm.
-
-The wavelength of an electromagnetic wave corresponds to its energy. If ordered by increasing energy, electromagnetic waves can be:
+The wavelength of an electromagnetic wave is inversly proportional to its energy. If ordered by increasing energy (or decreasing wavelength), electromagnetic waves can be:
 
 - radio waves (used for MRI)
+- microwaves
+- infra-red
 - visible light
-- X-rays or gamma (created in the nucleus) rays
+- ultraviolet light
+- X-rays or gamma (created in nucleus decays) rays
 
-The energy of the X-ray photons is enough to release electrons from an atom - process of ionizing radiation. 
+The energy of the X-ray photons is enough to release electrons from an atom - by a process called photoelectric effect. 
 
 **Exposure**-amount of charge per volume of air, measured in Roentgen (R) characterizes the X-rays. 
 - measures the energy of the radiation source
@@ -34,9 +35,9 @@ The energy of the X-ray photons is enough to release electrons from an atom - pr
 
 ## X-ray Generation
 - electrons in an atom organized in shells around the nucleus
-- the innermost shell contains electrons with the lowest energy
+- the innermost shell contains electrons with the lowest (negative) energy, meaning that they are the most tightly bound
 - energy is needed to move an electron from an inner shell to an outer shell - this is the difference between energy levels of the two shells 
-- for the electron to be released from a shell, an energy amounting to the difference between its current energy level and the level of the outermost shell is needed, in additon to the energy needed to remove the electron from the outermost shell (these are easiest to remove and are called valence electrons)
+- for the electron to be released from a shell, an energy amounting to the difference between its current energy level and the energy level of a free electron (which is usually set to 0 eV by convention). 
 
 X-rays are the result of the excess energy from electrons in the material of a cathode ray tube (CRT) when the cathode is heated up. (The material is usually tungsten). 
 Energy from heating causes the electrons to be released from the cathode and accelerated towards the anode. 
@@ -46,10 +47,10 @@ In the anode, electrons lose their kinetic energy by:
 - radiation - excess energy released as X-rays (depends on the energy difference between the outer and inner shell), monochrome/characteristic radiation
 
 However, most generated X-ray radiation is polychrome. 
-- an incident electron slows down when passing the nucleus of an atom and its path is deflected
-- this changes the frequency of the electron, whereby the excess energy is emitted as photon
+- an incident electron slows down (by a coulomb intreaction) when passing the nucleus of an atom and its path is deflected
+- this lowers the frequency and, thereby the energy of the electron. The energy difference between the incident electron and deflected electron is emitted as a photon
+- this process is called bremsstrahlung and emmited photons are called bremsstrahlung X-ray photons
 - the amount of emitted photons depends on how close the electron passes the nucleus
-- energy lost is emitted as a bremsstrahlung X-ray photon
 - approximately 80% of the population of X-rays within the X-ray beam consists of X-rays generated in this way
 
 ## X-ray Spectrum
@@ -62,6 +63,6 @@ However, most generated X-ray radiation is polychrome.
 
 ![spectrum](https://github.com/elberethfanulios/medical-image-analysis/blob/master/digital-image-acquisition/spectrum.png) <!-- .element height="25%" width="25%" -->
 
-X-ray tubes are characterized by the total amount of emitted energy as X-rays and the quality of radiation. A high quality tube has a higher ratio of high energy radiation and of monochrome radiation. 
+X-ray tubes are characterized by the total amount of emitted energy as X-rays and the quality of radiation. A high quality tube has a higher amount of high energy radiation and of monochrome radiation. 
 High quality radiation imposes a lower dose on the patient and produces better images. 
 
